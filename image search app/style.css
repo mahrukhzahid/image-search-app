@@ -1,0 +1,42 @@
+
+* {
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;} */
+.margin {
+    margin-top: 250px;
+}
+.size {
+    width: 250px;
+    object-fit: contain;
+}
+.overfloww {
+    overflow-y: scroll;
+    height: 215px;
+}
+@media screen and (min-width:768px){
+    body {
+        overflow-y: hidden;
+    }
+}
+@media screen and (max-width:768px){
+    #search-box::placeholder {
+        font-size: small;
+    }
+}
+@media screen and (max-width:600px){
+    .desk {
+        display: none;
+    }
+    .mob {
+        text-align: center;
+    }
+}
+@media screen and (max-width:532px){
+    #search-box::placeholder {
+        font-size: x-small;
+    }
+}
+@media screen and (max-width:469px){
+    #search-box::placeholder {
+        font-size: xx-small;
+    }
+}
